@@ -10,4 +10,4 @@ add_subdirectory(external/glfw)
 add_subdirectory(external/glew/build/cmake)
 
 target_link_libraries(ide glfw glew_s)
-target_include_directories(ide PUBLIC src external/glfw/include external/glew/include)
+target_include_directories(ide PUBLIC src src/external external/glfw/include external/glew/include)
